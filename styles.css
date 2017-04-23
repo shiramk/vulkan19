@@ -1,0 +1,76 @@
+body {
+	position: relative;
+	height: 100%;
+}
+
+main {
+	padding: 48px;
+}
+
+form {
+	display: flex;
+	flex-direction: column;
+	width: 400px;
+	margin: 0 auto;
+}
+
+form button {
+	margin-top: 24px !important;
+}
+
+.mdl-layout__header-row {
+	padding-left: 48px;
+}
+
+.mdl-layout__header {
+	padding: 12px 0;
+}
+
+.mdl-button--fab {
+	position: fixed;
+	bottom: 24px;
+	right: 24px;
+	z-index: 9999;
+}
+
+.grid {
+	display: flex;
+  	align-items:flex-start;
+}
+
+.grid .mdl-card {
+	margin-right: 24px;
+}
+
+.timestamp {
+	padding: 0 16px;
+	font-weight: bold;
+}
+
+.big-input input,
+.big-input label {
+	font-size: 24px;
+}
+
+.big-input input {
+	height: 36px;
+}
+
+.split {
+	display: flex;
+	margin: 0 -8px 24px;
+}
+
+.split .mdl-textfield {
+	padding: 0 8px;
+	width: 50%;
+}
+
+.right-aligned {
+	display: flex;
+	justify-content: flex-end;
+}
+
+.right-aligned button {
+	margin-left: 8px;
+}
