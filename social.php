@@ -12,6 +12,7 @@ $interests = Interest::all();
 ?>
 
 <?php require 'header.php' ?>
+<h2> Socialt</h2>
 
 <main class="mdl-layout__content sosial_meny">
 	
@@ -29,6 +30,7 @@ $interests = Interest::all();
     </div>
 	
 </main>
+
 <script>
 $(".lnk_interest").click(function(e) {
     e.preventDefault();
@@ -38,6 +40,9 @@ $(".lnk_interest").click(function(e) {
         url: location,
         success: function(result) {
             $( "#resultcontainer" ).html( result );
+            $('html, body').animate({
+        scrollTop: $("#resultcontainer").offset().top-87
+    }, 2000);
         },
         error: function(result) {
             alert('error');
