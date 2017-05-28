@@ -11,7 +11,7 @@ $name = 'project18';
 $database = new Database();
 $database->addConnection([
 	'driver' => 'mysql',
-	'host' => 'localhost',
+	'host' => $host,
 	'port' => $port,
 	'username' => $username,
 	'password' => $password,
