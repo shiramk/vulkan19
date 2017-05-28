@@ -2,9 +2,9 @@
 
 use Illuminate\Database\Capsule\Manager as Database;
 
-#$port = 8889;
-$host = getenv('MYSQL_SERVICE_HOST');
-$port = getenv('MYSQL_SERVICE_PORT_MYSQL');
+$port = 8889;
+#$host = getenv('MYSQL_SERVICE_HOST');
+#$port = getenv('MYSQL_SERVICE_PORT_MYSQL');
 $username = 'root';
 $password = 'root';
 $name = 'project18';
@@ -12,7 +12,7 @@ $name = 'project18';
 $database = new Database();
 $database->addConnection([
 	'driver' => 'mysql',
-	'host' => $host,
+	'host' => 'localhost',
 	'port' => $port,
 	'username' => $username,
 	'password' => $password,
