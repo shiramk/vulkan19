@@ -1,5 +1,5 @@
 
-            <div class="footer"> <header>Gruppe 18 - Rosso Morandi, Shiram Kshettri </header> </div>
+            <footer><header>Gruppe 18 - Rosso Morandi, Shiram Kshettri </header> </footer>
         </div>
 	</body>
 </html>

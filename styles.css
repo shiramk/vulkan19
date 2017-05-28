@@ -12,21 +12,6 @@ main {
 	padding: 22px 100px;
 }
 
-form {
-	display: -webkit-box;
-	display: -ms-flexbox;
-	display: flex;
-	-webkit-box-orient: vertical;
-	-webkit-box-direction: normal;
-	    -ms-flex-direction: column;
-	        flex-direction: column;
-	width: 400px;
-	margin: 0 auto;
-}
-
-form button {
-	margin-top: 24px !important;
-}
 /*-----header page starts-----*/
 .nav_bar{
     float: left;
@@ -75,13 +60,13 @@ form button {
 /*-----header page ends-----*/
 
 /*-----footer page starts-----*/
-.footer{
+footer{
     padding: 18px 45px;
     background-color: #1f2a3e;
     float: left;
     width: 100%;
 }
-.footer header{
+footer header{
     font-family: 'Quicksand', sans-serif;
     color: aliceblue;
     padding: 10px 279px;
