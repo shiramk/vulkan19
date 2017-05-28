@@ -8,7 +8,7 @@ use Carbon\Carbon;
 Carbon::setLocale('no');
 #$choice = Interest::where('interest_id', $_GET['id']);
 
-$samlings = samling::where('interest_id', $_GET['id'])->get();
+$samlings = Samling::where('interest_id', $_GET['id'])->get();
 $butikkers = null;
 $spisesteders = null ;
     
