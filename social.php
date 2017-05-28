@@ -14,18 +14,15 @@ $interests = Interest::all();
 <?php require 'header.php' ?>
 <h2> Socialt</h2>
 
-<main class="mdl-layout__content sosial_meny">
+<main id="socialt_main">
 	
-    <div class="sosial_meny">
-        <h4>what you want to do</h4>
-        <ul>
-		<?php
+    <section class="sosial_meny">
+        <?php
             foreach ($interests as $interest) {
             require 'social/events.php';
             }
         ?>
-        </ul>
-    </div>
+    </section>
     <div id="resultcontainer">
     </div>
 	

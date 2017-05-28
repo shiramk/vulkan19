@@ -1,1 +1,1 @@
-<li> <a class="lnk_interest" href="choose-interest.php?id=<?= $interest->ID ?>"><?= $interest->kategori ?> <img src="<?= $interest->blide ?>">  </a></li>
+<div> <img src="<?= $interest->blide ?>"> <button class="lnk_interest" href="choose-interest.php?id=<?= $interest->ID ?>"><?= $interest->kategori ?>   </button></div>

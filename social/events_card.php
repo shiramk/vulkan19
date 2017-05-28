@@ -1,9 +1,8 @@
-<div class="mdl-card mdl-shadow--2dp">
+<div>
 		<?= $interests['ID'] ?>
-	<div class="mdl-card__title">
+	<div>
 		<h2 class="mdl-card__title-text"><?= $interests['kategori'] ?></h2>
 	</div>
   	
 </div>
 
-</div>
