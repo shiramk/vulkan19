@@ -31,7 +31,7 @@ $utesteders = null ;
 ?>
 
 
-<main class="mdl-layout__content">
+<main class="choose_interest">
 	<h4>Recommendation for you</h4>
 	<div class="grid">
 
