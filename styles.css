@@ -6,6 +6,7 @@ html, body, div, span, applet, object, iframe,h1, h2, h3, h4, h5, h6, p, blockqu
 body {
 	position: relative;
 	height: 100%;
+    max-width: 1200px;
 }
 
 main {
@@ -89,17 +90,25 @@ footer header{
     float: left;
     padding: 25px 66px;
 }
+.kulturliv_kategori header{
+    font-weight: bold;
+    font-size: 1.5em;
+    font-family: 'Share', cursive;
+}
 .kulturliv_kategori div, .narmiljo_kategori div{
     float: left;
-   padding: 23px 4px;
+    width: 30%;
+    padding: 23px 4px;
 }
 .kulturliv_kategori img, .narmiljo_kategori img{
+
     padding-bottom: 15px;
 }
-.kulturliv_kategori a:link, .kulturliv_kategori a:visited, .narmiljo_kategori a:link, .narmiljo_kategori a:link{
-    padding: 14px 100px;
-    text-decoration: none;
+.kulturliv_kategori button,  .narmiljo_kategori a:link, .narmiljo_kategori a:link{
+    margin: 0px 0px 10px 51px;
+    padding: 14px 56px;
     color: black;
+    font-size: 1em;
     font-family: 'Quicksand', sans-serif;
 }
 .kulturliv_kategori a:hover, .narmiljo_kategori a:hover{
