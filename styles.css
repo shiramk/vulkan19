@@ -1,10 +1,15 @@
+html, body, div, span, applet, object, iframe,h1, h2, h3, h4, h5, h6, p, blockquote, pre,a, abbr, acronym, address,big, cite, code,del, dfn, em, img, ins, kbd, q, s, samp,small, strike, strong, sub, sup, tt, var,b, u, i, center,dl, dt, dd, ol, ul,li,fieldset, form, label, legend,table, caption, tbody, tfoot, thead, tr, th, td,article, aside, canvas, details, embed,figure, figcaption,footer, header, hgroup,menu, nav, output, ruby, section, summary,time, mark, audio, video {margin: 0;padding: 0;border: 0;font-size: 100%;font: inherit;vertical-align: baseline;}article, aside, details, figcaption, figure,footer,header, hgroup, menu, nav, section {display: block;}body {line-height: 1;}ol, ul{list-style: none;}blockquote, q {quotes: none;}blockquote:before, blockquote:after,q:before, q:after {content: "";content: none;}table {border-collapse: collapse;border-spacing: 0;}
+
+@import url('https://fonts.googleapis.com/css?family=Quicksand|Share');
+
+
 body {
 	position: relative;
 	height: 100%;
 }
 
 main {
-	padding: 48px;
+	padding: 22px 100px;
 }
 
 form {
@@ -17,60 +22,220 @@ form {
 form button {
 	margin-top: 24px !important;
 }
-
-.mdl-layout__header-row {
-	padding-left: 48px;
+/*-----header page starts-----*/
+.nav_bar{
+    float: left;
+    background-color: #1f2a3e;
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+}
+.logo{
+    position: relative;
+    width: 20%;
+    float: left;
+    padding: 10px 20px;
+}
+.nav_meny{
+   position: relative;
+   width: 70%;
+   float: right;
+}
+.nav_meny ul {
+    list-style-type: none;
+    display: inline-block;
+    padding: 33px 0px;
 }
 
-.mdl-layout__header {
-	padding: 12px 0;
+.nav_meny ul li{
+    font-family: 'Quicksand', sans-serif;
+    display: inline;
+    
+}
+.nav_meny ul li a {
+    font-family: 'Quicksand', sans-serif;
+    text-decoration: none;
+    padding: 15px 46px;
+    
 }
 
-.mdl-button--fab {
-	position: fixed;
-	bottom: 24px;
-	right: 24px;
-	z-index: 9999;
+.nav_meny ul li a:link, .nav_meny ul li a:visited {
+    color: #f2f3f5;
+}
+.nav_meny ul li a:hover{
+    color: #e6f234;
 }
 
-.grid {
-	display: flex;
-  	align-items:flex-start;
+
+/*-----header page ends-----*/
+
+/*-----footer page starts-----*/
+.footer{
+    padding: 18px 45px;
+    background-color: #1f2a3e;
+    float: left;
+    width: 100%;
+}
+.footer header{
+    font-family: 'Quicksand', sans-serif;
+    color: aliceblue;
+    padding: 10px 279px;
+}
+/*-----footer page ends-----*/
+
+/*-----kulturliv page page starts-----*/
+#kulturliv_main{
+    padding: 75px 0px;
+}
+.kulturliv_kategori{
+    float: left;
+    padding: 25px 66px;
+}
+.kulturliv_kategori div, .narmiljo_kategori div{
+    float: left;
+   padding: 23px 4px;
+}
+.kulturliv_kategori img, .narmiljo_kategori img{
+    padding-bottom: 15px;
+}
+.kulturliv_kategori a:link, .kulturliv_kategori a:visited, .narmiljo_kategori a:link, .narmiljo_kategori a:link{
+    padding: 14px 100px;
+    text-decoration: none;
+    color: black;
+    font-family: 'Quicksand', sans-serif;
+}
+.kulturliv_kategori a:hover, .narmiljo_kategori a:hover{
+   color: aquamarine;
+   text-decoration: underline;
+}
+.spise_section, .butikker_section{
+    clear: both;
+    width: 100%;
+    background-color: #efb72a;
+    float: left;
+    margin-top: 57px;
+    padding: 30px 0px 30px 0px;
+}
+.spise_kort, .butikker_kort{
+    position: relative;
+    width: 32%;
+    float: left;
+    padding-left: 10px;
+    
+}
+.spise_section header, .trening_wrapper header, .ute_section header, .butikker_kort header {
+    font-weight: bold;
+    font-size: 2em;
+    padding: 10px 36px;
+    font-family: 'Share', cursive;
 }
 
-.grid .mdl-card {
-	margin-right: 24px;
+.spise_blide{
+    float:left;
 }
 
-.timestamp {
-	padding: 0 16px;
-	font-weight: bold;
+.spise_adress, .spise_kontakt,.trening_adress, .trening_kontakt, .trening_pris, .ute_adress, .ute_kontakt, .ute_pris, .ute_apenstider, .ute_aldergrense, .tjnester_adress, .tjnester_kontakt{
+    font-family: 'QuickSand', sans-serif;
+    float: left;
+    padding-left: 7px;
+    margin-top: 10px;
+    width: 100%;
+}
+.spise_beskrivelse, .trening_beskrivelse, .ute_beskrivelse, .tjnester_beskrivelse{
+    margin-top: 20px;
+    float: left;
+    padding-left: 7px;
+    line-height: 150%;
+    font-family: 'Helvetica', sans-serif;
 }
 
-.big-input input,
-.big-input label {
-	font-size: 24px;
+.trening_section, .tjnester_section{
+    float: left;
+    width: 100%;
+    background-color: #f2f3f5;
+    padding: 30px 0px 30px 0px;
+}
+.trening_kort, .tjnester_kort{
+    width: 100%; 
+    float: left;
+    margin-bottom: 10px;
+}
+.trening_blide{
+    float: left;
+    padding: 36px 20px;
 }
 
-.big-input input {
-	height: 36px;
+.trening_wrapper{
+    float: right;
+    width: 55%;
 }
 
-.split {
-	display: flex;
-	margin: 0 -8px 24px;
+.ute_section{
+    float: left;
+    width: 100%;
+    background-color: #cdd371;
+}
+.ute_kort{
+    position: relative;
+    float: left;
+    width: 29%;
+    padding: 30px 17px;
+}
+.ute_blide{
+    float:left;
+}
+/*-----kulturliv page ends-----*/
+/*-----narmiljo page begins-----*/
+.butikker_kort div{
+    float:left;
+}
+.tjnester_wrapper{
+    float: right;
+    width: 55%;
+}
+.tjnester_blide{
+    float: left;
+    width: 31%;
+    padding: 14px 73px;
+}
+.tjnester_kort header{
+    font-weight: bold;
+    font-size: 2em;
+    padding: 10px 8px;
+    font-family: 'Share', cursive;
+}
+.narmiljo_kategori{
+    float: left;
+    width:  70%;
+    margin-left: 15%;
+    padding: 50px 66px;
+}
+/*-----narmiljo page ends-----*/
+
+/*-----sosial page starts-----*/
+
+.sosial_meny h4{
+    padding-left: 422px;
+    margin-bottom: 53px;
 }
 
-.split .mdl-textfield {
-	padding: 0 8px;
-	width: 50%;
+.sosial_meny a{
+    display: inline-grid;
 }
 
-.right-aligned {
-	display: flex;
-	justify-content: flex-end;
+div .sosial_meny ul {
+    list-style-type: none;
 }
 
-.right-aligned button {
-	margin-left: 8px;
+div .sosial_meny ul li{
+    display: inline;
+    margin-right: 50px;
+    padding-left: 140px;
 }
+
+.sosial_meny img{
+     margin: 30px 0px 5px -74px;
+}
+
+/*-----sosial page ends-----*/
+

@@ -2,5 +2,5 @@
 
 use Illuminate\Database\Eloquent\Model;
 
-class Butikker extends Model {
+class butikker extends Model {
 }
