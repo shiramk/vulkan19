@@ -20,7 +20,10 @@
     <div class="mdl-layout">
         <header class="mdl-layout__header">
             <nav class="nav_bar">
-                <div class="logo"> <img src="images/logo/logo.png"> </div>
+                <div class="logo">
+                    <a href="./index.php">
+                        <img src="images/logo/logo.png"> </div>
+                    </a>
                 <div class="nav_meny">
                     <ul>
                         <li><a href="./kulturliv.php">Kulturliv</a></li>
