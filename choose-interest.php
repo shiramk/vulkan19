@@ -20,7 +20,7 @@ $spisesteders = null ;
     }
 
      if ($samling['type_id'] == '7') {
-         $spisesteders = spisesteder::limit(3)->get();
+         $spisesteders = Spisesteder::limit(3)->get();
      }
     }
 ?>
