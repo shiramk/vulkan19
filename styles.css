@@ -12,6 +12,9 @@ body {
 main {
 	padding: 22px 100px;
 }
+h2{
+    visibility: !important hidden;
+}
 
 /*-----header page starts-----*/
 .nav_bar{
@@ -83,19 +86,19 @@ footer header{
 /*-----index page ends-----*/
 
 /*-----kulturliv page page starts-----*/
-#kulturliv_main,#studentliv_main{
-    padding: 75px 0px;
+#kulturliv_main, #narmiljo_main, #studentliv_main{
+    padding: 66px 0px;
 }
 .kulturliv_kategori, .studentliv_kategori{
     float: left;
     padding: 25px 66px;
 }
-.kulturliv_kategori header{
+.kulturliv_kategori header, .narmiljo_kategori header{
     font-weight: bold;
     font-size: 1.5em;
     font-family: 'Share', cursive;
 }
-.kulturliv_kategori div, .narmiljo_kategori div{
+.kulturliv_kategori div{
     float: left;
     width: 30%;
     padding: 23px 4px;
@@ -104,17 +107,14 @@ footer header{
 
     padding-bottom: 15px;
 }
-.kulturliv_kategori button,  .narmiljo_kategori a:link, .narmiljo_kategori a:link{
+button{
     margin: 0px 0px 10px 51px;
     padding: 14px 56px;
     color: black;
     font-size: 1em;
     font-family: 'Quicksand', sans-serif;
 }
-.kulturliv_kategori a:hover, .narmiljo_kategori a:hover{
-   color: aquamarine;
-   text-decoration: underline;
-}
+
 .spise_section, .butikker_section{
     clear: both;
     width: 100%;
@@ -148,7 +148,7 @@ footer header{
     margin-top: 10px;
     width: 100%;
 }
-.spise_beskrivelse, .trening_beskrivelse, .ute_beskrivelse, .tjnester_beskrivelse{
+.spise_beskrivelse, .trening_beskrivelse, .ute_beskrivelse{
     margin-top: 20px;
     float: left;
     padding-left: 7px;
@@ -213,9 +213,13 @@ footer header{
 }
 .narmiljo_kategori{
     float: left;
-    width:  70%;
-    margin-left: 15%;
-    padding: 50px 66px;
+    padding: 50px 150px;
+}
+.narmiljo_kategori div{
+    float: left;
+    width: 45%;
+    padding: 23px 4px;
+
 }
 /*-----narmiljo page ends-----*/
 
@@ -261,6 +265,14 @@ footer header{
 .studentliv_link div p{
     font-size: 1.1em;
     line-height: 1.5em;
+    font-family: 'Helvetica', sans-serif;
+}
+.tjnester_beskrivelse{
+    margin-top: 20px;
+    float: left;
+    width: 80%;
+    padding-left: 7px;
+    line-height: 156%;
     font-family: 'Helvetica', sans-serif;
 }
 

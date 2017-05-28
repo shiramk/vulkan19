@@ -15,6 +15,7 @@ $utesteders = Utesteder::limit(3)->get();
 ?>
 
     <?php require 'header.php' ?>
+    <h2> Studentliv</h2>
 
     <main id="studentliv_main">
         <section> <img src="images/studentliv/student_banner.png" </section>
