@@ -38,9 +38,8 @@ $utesteders = Utesteder::limit(3)->get();
     
                 <div> <img src="images/studentliv/student_torget.jpeg">
                      <header> <a href="http://studenttorget.no/" target="_blank">Student Torget</a></header>
-                    
+                     <p>Denne nettsiden inneholder informasjon om ulike transportørvalg, utdanning, studentliv. Du kan også finne om forskjellige rabatter etc</p>
                 </div>
-            </section>
-
-    </main>
+                </section>
+        </main>
     <?php require 'footer.php' ?>

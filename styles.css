@@ -250,8 +250,8 @@ form button {
 }
 .studentliv_link div{
     float: left;
-    width: 40%;
-    
+    width: 35%;
+    padding-left: 30px;
 }
 .studentliv_link a{
     text-decoration: none;
@@ -263,6 +263,11 @@ form button {
 .studentliv_link a:hover{
   color: aquamarine;
    text-decoration: none;
+}
+.studentliv_link div p{
+    font-size: 1.1em;
+    line-height: 1.5em;
+    font-family: 'Helvetica', sans-serif;
 }
 
 /*-----studentliv page starts-----*/

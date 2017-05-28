@@ -22,6 +22,10 @@ $spisesteders = null ;
      if ($samling['type_id'] == '7') {
          $spisesteders = Spisesteder::limit(3)->get();
      }
+
+     if ($samling['type_id'] == '8') {
+         $utesteders = Utesteder::limit(3)->get();
+     }
     }
 ?>
 
@@ -48,10 +52,12 @@ $spisesteders = null ;
   		}
         ?>
     </section>
+
+    <section id="ute_section" class="ute_section">
+        <?php
+                foreach ($utesteders as $utesteder) {
+                                require './kulturliv/ute_kort.php';
+                }
+        ?>
+    </section>
 </main>
-
-
-	
-
-
-
