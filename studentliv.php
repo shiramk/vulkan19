@@ -16,12 +16,12 @@ $utesteders = Utesteder::limit(3)->get();
 
 <?php require 'header.php' ?>
 
-<main id="kulturliv_main">
+<main id="studentliv_main">
     <section> <img src="images/studentliv/student_banner.png" </section>
-    <section class="kulturliv_kategori">
-        <div> <img src="images/kulturliv/spise_kategori.png"> <header> <a id="lnk_spise" >Spisesteder</a></header> </div>
-        <div> <img src="images/kulturliv/trening_kategori.png"><header> <a href="#">Treningsenter</a></div>
-        <div> <img src="images/kulturliv/ute_kategori.png"> <header><a href="#">Utesteder</a></div>
+    <section class="studentliv_kategori">
+        <div> <img src="images/studentliv/student1.png"> <header> </header> </div>
+        <div> <header> <p>Westerdals Oslo ACT has 1700 students enrolled in 25 different study programmes. We have talked to some of the students about their experience.</p></div>
+        <div> <img src="images/studentliv/student2.png"> <header><a href="#">Utesteder</a></div>
      </section>
     <section id="spise_section" class="spise_section">
         <?php

@@ -92,10 +92,10 @@ form button {
 /*-----index page ends-----*/
 
 /*-----kulturliv page page starts-----*/
-#kulturliv_main{
+#kulturliv_main,#studentliv_main{
     padding: 75px 0px;
 }
-.kulturliv_kategori{
+.kulturliv_kategori, .studentliv_kategori{
     float: left;
     padding: 25px 66px;
 }
@@ -219,6 +219,15 @@ form button {
     padding: 50px 66px;
 }
 /*-----narmiljo page ends-----*/
+
+/*-----studentliv page starts-----*/
+.studentliv_kategori div{
+    float: left;
+    width: 25%;
+    
+}
+
+/*-----studentliv page starts-----*/
 
 /*-----sosial page starts-----*/
 
