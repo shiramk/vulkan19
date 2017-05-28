@@ -70,7 +70,7 @@ CREATE TABLE `interests` (
 
 LOCK TABLES `interests` WRITE;
 /*!40000 ALTER TABLE `interests` DISABLE KEYS */;
-INSERT INTO `interests` VALUES (1,'eat','images/interests/eat.jpg'),(2,'meet','images/interests/meet.jpg'),(3,'music','images/interests/music.jpg');
+INSERT INTO `interests` VALUES (1,'eat','images/interests/eat.jpg'),(2,'meet','images/interests/meet.png'),(3,'music','images/interests/music.jpg');
 /*!40000 ALTER TABLE `interests` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -121,7 +121,7 @@ CREATE TABLE `samlings` (
 
 LOCK TABLES `samlings` WRITE;
 /*!40000 ALTER TABLE `samlings` DISABLE KEYS */;
-INSERT INTO `samlings` VALUES (1,7),(1,5);
+INSERT INTO `samlings` VALUES (1,7),(1,5),(2,8),(3,8);
 /*!40000 ALTER TABLE `samlings` ENABLE KEYS */;
 UNLOCK TABLES;
 
