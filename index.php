@@ -7,42 +7,17 @@ use Carbon\Carbon;
 
 Carbon::setLocale('no');
 
-#$butiks = Butikker::all();
-$butiks = Butikker::limit(2)->get();
+
+$butikkers = butikker::limit(3)->get();
+$tjenesters = tjenester::limit(2)->get();
+
+
 ?>
 
-<?php require 'header.php' ?>
+    <?php require 'header.php' ?>
 
-<main class="mdl-layout__content">
-	<h4>Kommende butiks</h4>
-	<div class="grid">
+    <main id="index_main">
+        <img src="./images/logo/main_bg.png">
+    </main>
 
-		<?php
-
-		foreach ($butiks as $butik) {
-				require 'card.php';
-  		}
-
-  		?>
-
-	</div>
-	<!--<h4>Tidligere butiks</h4>
-	<div class="grid">
-
-		<?php
-
-		foreach ($butiks as $butik) {
-				require 'card.php';
-  		}
-
-  		?>
-
-	</div>-->
-</main>
-<a href="new-butik.php">
-    <button class="mdl-button mdl-js-button mdl-button--fab mdl-js-ripple-effect mdl-button--colored">
-        <i class="material-icons">add</i>
-    </button>
-</a>
-
-<?php require 'footer.php' ?>
+    <?php require 'footer.php' ?>
