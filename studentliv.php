@@ -21,31 +21,9 @@ $utesteders = Utesteder::limit(3)->get();
     <section class="studentliv_kategori">
         <div> <img src="images/studentliv/student1.png"> <header> </header> </div>
         <div> <header> <p>Westerdals Oslo ACT has 1700 students enrolled in 25 different study programmes. We have talked to some of the students about their experience.</p></div>
-        <div> <img src="images/studentliv/student2.png"> <header><a href="#">Utesteder</a></div>
+        <div> <img src="images/studentliv/student2.png"> <header></div>
      </section>
-    <section id="spise_section" class="spise_section">
-        <?php
-
-		foreach ($spisesteders as $spisesteder) {
-				require './kulturliv/spise_kort.php';
-  		}
-        ?>
-    </section>
-    <section class="trening_section">
-         <?php
-            foreach ($treningsenters as $treningsenter) {
-				require './kulturliv/trening_kort.php';
-            }
-        ?>
-    </section>
-    <section class="ute_section">
-         <?php
-        foreach ($utesteders as $utesteder) {
-				require './kulturliv/ute_kort.php';
-  		}
-        ?>
-    </section>
-</main>
+   </main>
 <script>
    $("#lnk_spise").click(function() {
     $('html, body').animate({
