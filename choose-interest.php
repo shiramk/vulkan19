@@ -9,7 +9,7 @@ Carbon::setLocale('no');
 #$choice = Interest::where('interest_id', $_GET['id']);
 
 $samlings = Samling::where('interest_id', $_GET['id'])->get();
-$butikkers = null;
+$butikkers =null; # Butikker::where('interest_id', $_GET['id'])->get();
 $spisesteders = null ;
     
     foreach ($samlings as $samling) {
@@ -33,7 +33,7 @@ $spisesteders = null ;
 		<?php
 
 		foreach ($butikkers as $butik) {
-				require 'card.php';
+				require './narmiljo/butikker_kort.php';
   		}
 
   		?>
