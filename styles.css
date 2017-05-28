@@ -13,8 +13,13 @@ main {
 }
 
 form {
+	display: -webkit-box;
+	display: -ms-flexbox;
 	display: flex;
-	flex-direction: column;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	    -ms-flex-direction: column;
+	        flex-direction: column;
 	width: 400px;
 	margin: 0 auto;
 }
@@ -224,7 +229,40 @@ form button {
 .studentliv_kategori div{
     float: left;
     width: 27%;
+}
+.studentliv_kategori p{
+   padding-top: 100px;
+    padding-left: 56px;
+    font-size: 1.1em;
+    line-height: 1.5em;
+    font-family: 'Helvetica', sans-serif;
+}
+.studentliv_link{
+    float: left;
+    width: 100%;
+    background-color: #f2f3f6;
+    padding: 25px 66px;
+}
+.studentliv_link header{
+    font-family: 'Share', cursive;
+    font-size: 1.3em;
+    padding: 10px 0px 20px 0px;
+}
+.studentliv_link div{
+    float: left;
+    width: 40%;
     
+}
+.studentliv_link a{
+    text-decoration: none;
+}
+.studentliv_link a:link, .studentliv_link a:vistied{
+    color: #f2f3f5;
+    text-decoration: none;
+}
+.studentliv_link a:hover{
+  color: aquamarine;
+   text-decoration: none;
 }
 
 /*-----studentliv page starts-----*/
@@ -255,4 +293,3 @@ div .sosial_meny ul li{
 }
 
 /*-----sosial page ends-----*/
-
