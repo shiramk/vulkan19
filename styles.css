@@ -86,12 +86,13 @@ footer header{
 /*-----index page ends-----*/
 
 /*-----kulturliv page page starts-----*/
-#kulturliv_main, #narmiljo_main, #studentliv_main{
+#kulturliv_main, #narmiljo_main, #socialt_meny{
     padding: 66px 0px;
 }
-.kulturliv_kategori, .studentliv_kategori{
+.kulturliv_kategori, .studentliv_kategori, .sosial_meny{
     float: left;
-    padding: 25px 66px;
+    padding: 25px 99px;
+    width: 100%;
 }
 .kulturliv_kategori header, .narmiljo_kategori header{
     font-weight: bold;
@@ -103,7 +104,14 @@ footer header{
     width: 30%;
     padding: 23px 4px;
 }
-.kulturliv_kategori img, .narmiljo_kategori img{
+
+.sosial_meny div{
+    float: left;
+    width: 30%;
+    padding: 23px 4px;
+}
+
+.sosial_meny img, .kulturliv_kategori img, .narmiljo_kategori img{
 
     padding-bottom: 15px;
 }
@@ -286,21 +294,37 @@ button{
 }
 
 .sosial_meny a{
-    display: inline-grid;
+       display: -webkit-box;
+       text-decoration: none;
 }
 
 div .sosial_meny ul {
     list-style-type: none;
 }
 
-div .sosial_meny ul li{
+/*div .sosial_meny ul li{
     display: inline;
     margin-right: 50px;
     padding-left: 140px;
-}
+}*/
 
 .sosial_meny img{
      margin: 30px 0px 5px -74px;
 }
 
+.event_style{
+    
+    float: left;
+    width: 30%;
+}
+
 /*-----sosial page ends-----*/
+/*-----choose category page starts-----*/
+.choose_interest h4{
+    font-weight: bold;
+    font-size: 1.5em;
+    font-family: 'Share', cursive;
+   
+}
+
+/*-----choose categoru page ends-----*/
