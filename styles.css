@@ -82,6 +82,14 @@ form button {
     padding: 10px 279px;
 }
 /*-----footer page ends-----*/
+/*-----index page starts-----*/
+#index_main{
+    float: left;
+    padding: 0px !important;
+    background-color: #007042;
+}
+
+/*-----index page ends-----*/
 
 /*-----kulturliv page page starts-----*/
 #kulturliv_main{

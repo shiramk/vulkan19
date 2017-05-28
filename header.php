@@ -20,15 +20,12 @@
     <div class="mdl-layout">
         <header class="mdl-layout__header">
             <nav class="nav_bar">
-                <div class="logo">
-                    <a href="./index.php">
-                        <img src="images/logo/logo.png"> </div>
-                    </a>
+                <div class="logo"> <a href="./index.php"><img src="images/logo/logo.png"></a>  </div>
                 <div class="nav_meny">
                     <ul>
                         <li><a href="./kulturliv.php">Kulturliv</a></li>
                         <li><a href="./narmiljo.php">Nærmiljø</a></li>
-                        <li><a href="#">Studentliv</a></li>
+                        <li><a href="./studentliv.php">Studentliv</a></li>
                         <li><a href="./social.php">Sosial</a></li>
                     </ul>
                 </div>
