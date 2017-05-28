@@ -8,8 +8,8 @@ use Carbon\Carbon;
 Carbon::setLocale('no');
 
 
-$butikkers = butikker::limit(3)->get();
-$tjenesters = tjenester::limit(2)->get();
+$butikkers = Butikker::limit(3)->get();
+$tjenesters = Tjenester::limit(2)->get();
 
 
 ?>

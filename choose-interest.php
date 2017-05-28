@@ -16,7 +16,7 @@ $spisesteders = null ;
         
         
      if ($samling['type_id'] == '5') {
-         $butikkers = butikker::limit(3)->get();
+         $butikkers = Butikker::limit(3)->get();
     }
 
      if ($samling['type_id'] == '7') {
