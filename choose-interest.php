@@ -11,7 +11,8 @@ Carbon::setLocale('no');
 $samlings = Samling::where('interest_id', $_GET['id'])->get();
 $butikkers =null; # Butikker::where('interest_id', $_GET['id'])->get();
 $spisesteders = null ;
-    
+$utesteders = null ;
+
     foreach ($samlings as $samling) {
         
         
@@ -31,12 +32,12 @@ $spisesteders = null ;
 
 
 <main class="mdl-layout__content">
-	<h4>Kommende butiks</h4>
+	<h4>Recommendation for you</h4>
 	<div class="grid">
 
 		<?php
 
-		foreach ($butikkers as $butik) {
+		foreach ($butikkers as $butikker) {
 				require './narmiljo/butikker_kort.php';
   		}
 
