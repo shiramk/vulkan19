@@ -70,7 +70,7 @@ CREATE TABLE `interests` (
 
 LOCK TABLES `interests` WRITE;
 /*!40000 ALTER TABLE `interests` DISABLE KEYS */;
-INSERT INTO `interests` VALUES (1,'eat','images/interests/eat.jpg'),(2,'meet','images/interests/meet.png'),(3,'music','images/interests/music.jpg');
+INSERT INTO `interests` VALUES (1,'spise','images/interests/eat.jpg'),(2,'møte','images/interests/meet.png'),(3,'musikk','images/interests/music.jpg');
 /*!40000 ALTER TABLE `interests` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -290,4 +290,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2017-05-28 10:45:07
+-- Dump completed on 2017-05-28 22:04:41
